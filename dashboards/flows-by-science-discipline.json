@@ -15,7 +15,7 @@
   "editable": true,
   "gnetId": null,
   "graphTooltip": 0,
-  "iteration": 1573160062016,
+  "iteration": 1573683467186,
   "links": [],
   "panels": [
     {
@@ -489,7 +489,7 @@
               "type": "sum"
             }
           ],
-          "query": "meta.sensor_id.keyword:$Sensors && (meta.scireg.src.discipline.keyword:$discipline or meta.scireg.dst.discipline.keyword:$discipline)",
+          "query": "meta.sensor_id.keyword:$Sensors && (meta.scireg.src.discipline.keyword:$discipline OR meta.scireg.dst.discipline.keyword:$discipline)",
           "refId": "A",
           "timeField": "start"
         }
@@ -590,7 +590,7 @@
               "type": "count"
             }
           ],
-          "query": "meta.sensor_id.keyword:$Sensors && (meta.scireg.src.discipline.keyword:$discipline or meta.scireg.dst.discipline.keyword:$discipline)",
+          "query": "meta.sensor_id.keyword:$Sensors && (meta.scireg.src.discipline.keyword:$discipline OR meta.scireg.dst.discipline.keyword:$discipline)",
           "refId": "A",
           "timeField": "start"
         }
@@ -1105,250 +1105,232 @@
       ],
       "table_data": [
         [
-          "Brookhaven National Laboratory (BNL)",
-          "MPS.Physics.High Energy",
-          "UNK-DST",
-          501939315200000
-        ],
-        [
-          "Brookhaven National Laboratory (BNL)",
-          "MPS.Physics.High Energy",
-          "Max Planck Computing and Data Facility (MPCDF)",
-          45097980174336
-        ],
-        [
-          "Brookhaven National Laboratory (BNL)",
-          "MPS.Physics.High Energy",
-          "Technion - Israel Institute of Technology",
-          28355672502272
-        ],
-        [
-          "Brookhaven National Laboratory (BNL)",
-          "MPS.Physics.High Energy",
-          "University of Glasgow (U of G)",
-          19851710185472
-        ],
-        [
-          "Brookhaven National Laboratory (BNL)",
-          "MPS.Physics.High Energy",
-          "University of Edinburgh",
-          9266129661952
-        ],
-        [
-          "National Institute for Nuclear Physics - National Center for Frame Analysis",
-          "MPS.Physics.High Energy",
-          "University of Florida (UF)",
-          389305623838720
-        ],
-        [
-          "National Institute for Nuclear Physics - National Center for Frame Analysis",
-          "MPS.Physics.High Energy",
-          "UNK-DST",
-          1659069595648
-        ],
-        [
-          "University of Florida (UF)",
-          "MPS.Physics.High Energy",
-          "UNK-DST",
-          251113440935936
-        ],
-        [
           "CERN",
           "MPS.Physics.High Energy",
           "UNK-DST",
-          190646092247040
-        ],
-        [
-          "CERN",
-          "MPS.Physics.High Energy",
-          "University of Oklahoma (OU)",
-          5030050213888
+          1659384626626560
         ],
         [
           "CERN",
           "MPS.Physics.High Energy",
           "National Energy Research Scientific Computing Center (NERSC)",
-          3580963762176
+          7039841996800
+        ],
+        [
+          "CERN",
+          "MPS.Physics.High Energy",
+          "University of Oklahoma (OU)",
+          3660063596544
         ],
         [
           "CERN",
           "MPS.Physics.High Energy",
           "Chinese University of Hong Kong (CUHK)",
-          1447286759424
+          2698064084992
         ],
         [
           "CERN",
           "MPS.Physics.High Energy",
           "National Center for Supercomputing Applications (NCSA)",
-          165954961408
+          26963222528
+        ],
+        [
+          "Brookhaven National Laboratory (BNL)",
+          "MPS.Physics.High Energy",
+          "UNK-DST",
+          496234096885760
+        ],
+        [
+          "Brookhaven National Laboratory (BNL)",
+          "MPS.Physics.High Energy",
+          "Max Planck Computing and Data Facility (MPCDF)",
+          32946874175488
+        ],
+        [
+          "Brookhaven National Laboratory (BNL)",
+          "MPS.Physics.High Energy",
+          "Technion - Israel Institute of Technology",
+          23400736161792
+        ],
+        [
+          "Brookhaven National Laboratory (BNL)",
+          "MPS.Physics.High Energy",
+          "Gesellschaft fÃ¼r wissenschaftliche Datenverarbeitung mbH GÃ¶ttingen  (GWDG)",
+          22774541631488
+        ],
+        [
+          "Brookhaven National Laboratory (BNL)",
+          "MPS.Physics.High Energy",
+          "University of Glasgow (U of G)",
+          21290768908288
         ],
         [
           "Rutherford Appleton Laboratory (RAL)",
           "MPS.Physics.High Energy",
           "UNK-DST",
-          133042372325376
+          91028818399232
         ],
         [
           "Rutherford Appleton Laboratory (RAL)",
           "MPS.Physics.High Energy",
           "Boston University (BU)",
-          23697607049216
+          43950120259584
         ],
         [
           "Rutherford Appleton Laboratory (RAL)",
           "MPS.Physics.High Energy",
-          "University of Oklahoma (OU)",
-          19406668779520
+          "California Institute of Technology (Caltech)",
+          39857969192960
         ],
         [
           "Rutherford Appleton Laboratory (RAL)",
           "MPS.Physics.High Energy",
-          "University of Chicago (U of C)",
-          7598631403520
+          "SLAC National Accelerator Laboratory",
+          24239345901568
         ],
         [
           "Rutherford Appleton Laboratory (RAL)",
           "MPS.Physics.High Energy",
+          "Massachusetts Institute of Technology (MIT)",
+          11649359695872
+        ],
+        [
+          "University of Florida (UF)",
+          "MPS.Physics.High Energy",
+          "UNK-DST",
+          119666654720000
+        ],
+        [
           "Purdue University",
-          5487949225984
-        ],
-        [
-          "University of Manchester",
           "MPS.Physics.High Energy",
           "UNK-DST",
-          40574446874624
+          77258956214272
+        ],
+        [
+          "Purdue University",
+          "MPS.Physics.High Energy",
+          "National Center for Physics (NCP)",
+          10060275712
         ],
         [
           "University of Manchester",
           "MPS.Physics.High Energy",
           "University of Oklahoma (OU)",
-          26331924709376
+          45774012739584
         ],
         [
           "University of Manchester",
           "MPS.Physics.High Energy",
-          "Boston University (BU)",
-          15062389506048
+          "UNK-DST",
+          23009883713536
         ],
         [
           "University of Manchester",
           "MPS.Physics.High Energy",
           "SLAC National Accelerator Laboratory",
-          2887498719232
+          2623423307776
         ],
         [
           "University of Manchester",
           "MPS.Physics.High Energy",
-          "National Energy Research Scientific Computing Center (NERSC)",
-          25446801408
+          "Boston University (BU)",
+          2070388834304
         ],
         [
-          "University of Chicago (U of C)",
+          "University of Manchester",
           "MPS.Physics.High Energy",
-          "UNK-DST",
-          72596969431040
-        ],
-        [
           "University of Chicago (U of C)",
-          "MPS.Physics.High Energy",
-          "Energy Sciences Network (ESnet)",
-          866270519296
-        ],
-        [
-          "University of Chicago (U of C)",
-          "MPS.Physics.High Energy",
-          "Chinese University of Hong Kong (CUHK)",
-          600304750592
+          203807035392
         ],
         [
           "Fermi National Accelerator Laboratory (Fermilab)",
           "MPS.Physics.High Energy",
           "UNK-DST",
-          67148226465792
+          51885657088000
         ],
         [
           "Fermi National Accelerator Laboratory (Fermilab)",
           "MPS.Physics.High Energy",
           "Interuniversity Institute for High Energies (IIHE)",
-          827272617984
-        ],
-        [
-          "Fermi National Accelerator Laboratory (Fermilab)",
-          "MPS.Physics.High Energy",
-          "Austrian Academy of Sciences (OEAW)",
-          810302853120
+          3368251715584
         ],
         [
           "Fermi National Accelerator Laboratory (Fermilab)",
           "MPS.Physics.High Energy",
           "National Centre for Nuclear Research  (Narodowe Centrum Badan Jadrowych - NCBJ)",
-          271685046272
+          1697563140096
         ],
         [
           "Fermi National Accelerator Laboratory (Fermilab)",
           "MPS.Physics.High Energy",
-          "JINR/HEPNET",
-          188217724928
+          "Austrian Academy of Sciences (OEAW)",
+          19240099840
         ],
         [
-          "Queen Mary University of London (QMUL)",
+          "Fermi National Accelerator Laboratory (Fermilab)",
+          "MPS.Physics.High Energy",
+          "National Institute of Chemical Physics and Biophysics (NICPB)",
+          8409817088
+        ],
+        [
+          "National Institute for Nuclear Physics - National Center for Frame Analysis",
+          "MPS.Physics.High Energy",
+          "University of Florida (UF)",
+          52178265546752
+        ],
+        [
+          "National Institute for Nuclear Physics - National Center for Frame Analysis",
           "MPS.Physics.High Energy",
           "UNK-DST",
-          31944252674048
+          2234572079104
         ],
         [
-          "Queen Mary University of London (QMUL)",
+          "University of Glasgow (U of G)",
           "MPS.Physics.High Energy",
-          "Boston University (BU)",
-          18825030483968
+          "University of Chicago (U of C)",
+          14821776269312
         ],
         [
-          "Queen Mary University of London (QMUL)",
-          "MPS.Physics.High Energy",
-          "SLAC National Accelerator Laboratory",
-          6341632376832
-        ],
-        [
-          "Queen Mary University of London (QMUL)",
-          "MPS.Physics.High Energy",
-          "University of Oklahoma (OU)",
-          5574486999040
-        ],
-        [
-          "Queen Mary University of London (QMUL)",
-          "MPS.Physics.High Energy",
-          "National Energy Research Scientific Computing Center (NERSC)",
-          1497364766720
-        ],
-        [
-          "Chinese University of Hong Kong (CUHK)",
+          "University of Glasgow (U of G)",
           "MPS.Physics.High Energy",
           "UNK-DST",
-          43301109460992
+          11819656540160
         ],
         [
-          "Chinese University of Hong Kong (CUHK)",
-          "MPS.Physics.High Energy",
-          "Rutherford Appleton Laboratory (RAL)",
-          2206079811584
-        ],
-        [
-          "Chinese University of Hong Kong (CUHK)",
-          "MPS.Physics.High Energy",
-          "Boston University (BU)",
-          1966954004480
-        ],
-        [
-          "Chinese University of Hong Kong (CUHK)",
+          "University of Glasgow (U of G)",
           "MPS.Physics.High Energy",
           "Brookhaven National Laboratory (BNL)",
-          1364086042624
+          10928913633280
         ],
         [
-          "Chinese University of Hong Kong (CUHK)",
-          "MPS.Physics.High Energy",
           "University of Glasgow (U of G)",
-          1282460459008
+          "MPS.Physics.High Energy",
+          "SLAC National Accelerator Laboratory",
+          8370584760320
+        ],
+        [
+          "University of Glasgow (U of G)",
+          "MPS.Physics.High Energy",
+          "Boston University (BU)",
+          6270560624640
+        ],
+        [
+          "University of Chicago (U of C)",
+          "MPS.Physics.High Energy",
+          "UNK-DST",
+          48605341982720
+        ],
+        [
+          "University of Chicago (U of C)",
+          "MPS.Physics.High Energy",
+          "Energy Sciences Network (ESnet)",
+          1310099963904
+        ],
+        [
+          "University of Chicago (U of C)",
+          "MPS.Physics.High Energy",
+          "Chinese University of Hong Kong (CUHK)",
+          918562791424
         ]
       ],
       "table_data_type": "Sum",
