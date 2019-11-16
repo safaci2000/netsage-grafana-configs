@@ -15,7 +15,7 @@
   "editable": true,
   "gnetId": null,
   "graphTooltip": 0,
-  "iteration": 1573842367029,
+  "iteration": 1573947339430,
   "links": [],
   "panels": [
     {
@@ -174,7 +174,7 @@
       ],
       "lng": -57,
       "mapSrc": [
-        "{\n  \"results\": [\n    {\n      \"links\": [\n        {\n          \"endpoints\": [\n            {\n              \"name\": \"198.129.77.102 to 198.124.151.102\",\n              \"label\": \"SCinet to ESnet Sunnyvale DTN\"\n            }\n          ],\n          \"path\": [\n            {\n              \"lon\": \"-104.990250\",\n              \"lat\": \"39.739235\",\n              \"name\": \"SCinet\"\n            },\n            {\n              \"lon\": \"-121.59\",\n              \"lat\": \"37.22\",\n              \"name\": \"ESnet Sunnyvale DTN\"\n            }\n          ],\n          \"name\": \"198.129.77.102 to 198.124.151.102\"\n        },\n        {\n          \"endpoints\": [\n            {\n              \"name\": \"198.129.77.102 to 198.124.151.102\",\n              \"label\": \"SCinet to ESnet Starlight DTN\"\n            }\n          ],\n          \"path\": [\n            {\n              \"lon\": \"-104.990250\",\n              \"lat\": \"39.739235\",\n              \"name\": \"SCinet\"\n            },\n            {\n              \"lon\": \"-95\",\n              \"lat\": \"48\"\n            },\n            {\n              \"lon\": \"-87.61611111111111\",\n              \"lat\": \"41.89527777777778\",\n              \"name\": \"ESnet Starlight DTN\"\n            }\n          ],\n          \"name\": \"198.129.77.102 to 198.124.151.102\"\n        },\n        {\n          \"endpoints\": [\n            {\n              \"name\": \"198.129.77.102 to 198.124.151.102\",\n              \"label\": \"SCinet to ESnet New York DTN\"\n            }\n          ],\n          \"path\": [\n            {\n              \"lon\": \"-104.990250\",\n              \"lat\": \"39.739235\",\n              \"name\": \"SCinet\"\n            },\n            {\n              \"lon\": \"-89\",\n              \"lat\": \"35\"\n            },\n            {\n              \"lon\": \"-74.005\",\n              \"lat\": \"40.72\",\n              \"name\": \"ESnet New York DTN\"\n            }\n          ],\n          \"name\": \"198.129.77.102 to 198.124.151.102\"\n        },\n        {\n          \"endpoints\": [\n            {\n              \"name\": \"198.129.77.102 to 198.124.151.102\",\n              \"label\": \"SCinet to ESnet CERN DTN\"\n            }\n          ],\n          \"path\": [\n            {\n              \"lon\": \"-104.990250\",\n              \"lat\": \"39.739235\",\n              \"name\": \"SCinet\"\n            },\n            {\n              \"lon\": \"6.045938888888889\",\n              \"lat\": \"46.2344\",\n              \"name\": \"ESnet CERN DTN\"\n            }\n          ],\n          \"name\": \"198.129.77.102 to 198.124.151.102\"\n        }\n      ],\n      \"endpoints\": [\n        {\n          \"lon\": \"-104.990250\",\n          \"lat\": \"39.739235\",\n          \"name\": \"SCinet\"\n        },\n        {\n          \"lon\": \"-121.59\",\n          \"lat\": \"37.22\",\n          \"name\": \"ESnet Sunnyvale DTN\"\n        },\n        {\n          \"lon\": \"-87.61611111111111\",\n          \"lat\": \"41.89527777777778\",\n          \"name\": \"ESnet Starlight DTN\"\n        },\n        {\n          \"lon\": \"-74.005\",\n          \"lat\": \"40.72\",\n          \"name\": \"ESnet New York DTN\"\n        },\n        {\n          \"lon\": \"6.045938888888889\",\n          \"lat\": \"46.2344\",\n          \"name\": \"ESnet CERN DTN\"\n        }\n      ]\n    }\n  ]\n}"
+        "{    \"results\":[       {          \"links\":[             {                \"endpoints\":[                   {                      \"name\":\"198.129.77.102 to 140.221.249.211\",                      \"label\":\"ESnet Sunnyvale DTN to SCinet\"                   }                ],                \"path\":[                   {                      \"lon\":\"-104.990250\",                      \"lat\":\"39.739235\",                      \"name\":\"SCinet\"                   },                   {                      \"lon\":\"-121.59\",                      \"lat\":\"37.22\",                      \"name\":\"ESnet Sunnyvale DTN\"                   }                ],                \"name\":\"198.129.77.102 to 140.221.249.211\"             },             {                \"endpoints\":[                   {                      \"name\":\"198.124.238.170 to 140.221.249.211\",                      \"label\":\"ESnet Starlight DTN to SCinet\"                   }                ],                \"path\":[                   {                      \"lon\":\"-104.990250\",                      \"lat\":\"39.739235\",                      \"name\":\"SCinet\"                   },                   {                      \"lon\":\"-95\",                      \"lat\":\"48\"                   },                   {                      \"lon\":\"-87.61611111111111\",                      \"lat\":\"41.89527777777778\",                      \"name\":\"ESnet Starlight DTN\"                   }                ],                \"name\":\"198.124.238.170 to 140.221.249.211\"             },             {                \"endpoints\":[                   {                      \"name\":\"198.124.238.150 to 140.221.249.211\",                      \"label\":\"ESnet New York DTN to SCinet\"                   }                ],                \"path\":[                   {                      \"lon\":\"-104.990250\",                      \"lat\":\"39.739235\",                      \"name\":\"SCinet\"                   },                   {                      \"lon\":\"-89\",                      \"lat\":\"35\"                   },                   {                      \"lon\":\"-74.005\",                      \"lat\":\"40.72\",                      \"name\":\"ESnet New York DTN\"                   }                ],                \"name\":\"198.124.238.150 to 140.221.249.211\"             },             {                \"endpoints\":[                   {                      \"name\":\"198.124.238.186 to 140.221.249.211\",                      \"label\":\"ESnet CERN DTN to SCinet\"                   }                ],                \"path\":[                   {                      \"lon\":\"-104.990250\",                      \"lat\":\"39.739235\",                      \"name\":\"SCinet\"                   },                   {                      \"lon\":\"6.045938888888889\",                      \"lat\":\"46.2344\",                      \"name\":\"ESnet CERN DTN\"                   }                ],                \"name\":\"198.124.238.186 to 140.221.249.211\"             }          ],          \"endpoints\":[             {                \"lon\":\"-104.990250\",                \"lat\":\"39.739235\",                \"name\":\"SCinet\"             },             {                \"lon\":\"-121.59\",                \"lat\":\"37.22\",                \"name\":\"ESnet Sunnyvale DTN\"             },             {                \"lon\":\"-87.61611111111111\",                \"lat\":\"41.89527777777778\",                \"name\":\"ESnet Starlight DTN\"             },             {                \"lon\":\"-74.005\",                \"lat\":\"40.72\",                \"name\":\"ESnet New York DTN\"             },             {                \"lon\":\"6.045938888888889\",                \"lat\":\"46.2344\",                \"name\":\"ESnet CERN DTN\"             }          ]       }    ] }"
       ],
       "map_tile_url": "https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png",
       "max": [
@@ -286,6 +286,14 @@
       },
       "id": 6,
       "panels": [],
+      "repeat": "source",
+      "scopedVars": {
+        "source": {
+          "selected": true,
+          "text": "198.129.77.102",
+          "value": "198.129.77.102"
+        }
+      },
       "title": "$source to $destination",
       "type": "row"
     },
@@ -327,6 +335,13 @@
       "pointradius": 2,
       "points": false,
       "renderer": "flot",
+      "scopedVars": {
+        "source": {
+          "selected": true,
+          "text": "198.129.77.102",
+          "value": "198.129.77.102"
+        }
+      },
       "seriesOverrides": [
         {
           "alias": "198.129.77.102 -> 198.124.151.102",
@@ -482,6 +497,13 @@
       "pointradius": 2,
       "points": false,
       "renderer": "flot",
+      "scopedVars": {
+        "source": {
+          "selected": true,
+          "text": "198.129.77.102",
+          "value": "198.129.77.102"
+        }
+      },
       "seriesOverrides": [
         {
           "alias": "198.129.77.102 to 198.124.151.102",
@@ -853,7 +875,7 @@
         "show": true
       },
       "links": [],
-      "max_total": 60748260,
+      "max_total": 188009,
       "option_1": "netsage",
       "option_2": "maheshtest",
       "option_3": "plugin",
@@ -861,11 +883,11 @@
       "options": {},
       "parsed_data": [
         {
-          "avg": 359457.1597633136,
+          "avg": 1038.7237569060774,
           "label": "Count",
-          "max": 942579,
-          "min": 1565,
-          "total": 60748260
+          "max": 5756,
+          "min": 0,
+          "total": 188009
         }
       ],
       "rgb_values": [
@@ -924,6 +946,13 @@
         "linear",
         "sqrt"
       ],
+      "scopedVars": {
+        "source": {
+          "selected": true,
+          "text": "198.129.77.102",
+          "value": "198.129.77.102"
+        }
+      },
       "sharescreen": true,
       "sideLogoPath": "https://portal.netsage.global/netsage-header-logo.png",
       "sidebar": true,
@@ -978,7 +1007,7 @@
         },
         "datasource": "Netsage TSDS",
         "definition": "get source between(1451606400, $END) by source from ps_disktodisk where source != null limit 100 offset 0 ordered by source asc",
-        "hide": 2,
+        "hide": 0,
         "includeAll": false,
         "label": "Source",
         "multi": false,
@@ -1002,40 +1031,23 @@
         "useTags": false
       },
       {
-        "allValue": null,
         "current": {
-          "text": "198.124.151.102",
-          "value": "198.124.151.102"
+          "text": "140.221.249.211",
+          "value": "140.221.249.211"
         },
-        "datasource": "Netsage TSDS",
-        "definition": "get destination between(1451606400, $END) by destination from ps_disktodisk where destination != null limit 100 offset 0 ordered by destination asc",
         "hide": 2,
-        "includeAll": false,
         "label": "Destination",
-        "multi": false,
         "name": "destination",
         "options": [
           {
             "selected": true,
-            "text": "198.124.151.102",
-            "value": "198.124.151.102"
-          },
-          {
-            "selected": false,
-            "text": "198.128.151.102",
-            "value": "198.128.151.102"
+            "text": "140.221.249.211",
+            "value": "140.221.249.211"
           }
         ],
-        "query": "get destination between(1451606400, $END) by destination from ps_disktodisk where destination != null limit 100 offset 0 ordered by destination asc",
-        "refresh": 0,
-        "regex": "",
+        "query": "140.221.249.211",
         "skipUrlSync": false,
-        "sort": 0,
-        "tagValuesQuery": "",
-        "tags": [],
-        "tagsQuery": "",
-        "type": "query",
-        "useTags": false
+        "type": "constant"
       }
     ]
   },
